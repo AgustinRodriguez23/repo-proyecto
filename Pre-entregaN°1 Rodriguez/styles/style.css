@@ -1,0 +1,132 @@
+     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+     /*font-family: "Inter", sans-serif; */
+     
+
+     /*ESTILOS GENERALES*/
+    
+
+     header {
+      padding: 16px;
+}
+
+     body {
+      font-family: "Inter", sans-serif;
+      color: white;
+      background-color: black;
+      margin: 16px;
+}
+     h1 { 
+      color: rgb(211, 182, 55); 
+      font-size: 40px;
+      text-decoration: underline;
+      
+}
+    
+    section p {
+      font-size: 22px;
+}
+
+    h2 {
+      margin-left: 50px;
+}
+
+    .info {
+      text-align: center;
+      font-size: 27px;
+}
+
+    .sub-nos {
+      color: white;
+      font-size: 20px;
+      text-decoration: underline;
+    }
+
+    h3 {
+      color:rgba(31, 61, 156, 0.781);
+      font-size: 30px;
+}
+    h4 {
+      text-align: center;
+      font-size: 19px
+}
+    h5 {
+      text-transform: uppercase;
+      font-size: 20px;
+}
+
+    p {
+      color: white; font-size: 18px;    
+}
+
+.seminario {
+      text-align: center;
+}
+
+/* ESTILOS IMG */
+
+.mi-imagen {
+  width: 300px;
+  height: auto;
+}
+.img-semi {
+  width: 250px;
+  height: 250px;
+  border: 1px solid beige;
+  border-radius: 5px;
+}
+.img-ubi {
+  width: 450px;
+  height: 450px;
+  margin-left: 400px;
+}
+
+.img-nos {
+  width: 500px;
+  height: auto;
+}
+
+.img-info {
+  width: 500px;
+  height: auto;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* ESTILOS NAV */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav-li {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 22px;
+  
+}
+
+footer p {
+  font-size: 14px;
+}
+
