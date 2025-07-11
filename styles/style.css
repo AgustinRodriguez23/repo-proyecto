@@ -208,7 +208,7 @@ footer p {
 @media (max-width: 450px) {
 
   h1 {
-    font-size: 24px;
+    font-size: 28px;
     }
   
   .inicio {
@@ -217,11 +217,16 @@ footer p {
     flex-wrap: wrap;
   }
 
-  p {
-    font-size: 16px;
+  h5 {
+    text-align: center;
   }
 
   .seminario {
     font-size: 18px; 
   }
+
+  .mi-imagen {
+    width: 300;
+  }
+
 }
