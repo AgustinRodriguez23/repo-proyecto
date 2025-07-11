@@ -53,12 +53,13 @@
 }
     h5 {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 24px;
       margin-left: 56px;
 }
 
     p {
-      color: white; font-size: 18px;
+      color: white; 
+      font-size: 20px;
       margin: 16px 8px;    
 }
 
@@ -72,8 +73,26 @@
   margin-right: 42px;
 }
 
+.servicios {
+  font-size: 20px;
+  list-style-type: square;
+}
+
+.li-inicio {
+  margin: 16px;
+}
+
 .div-contacto {
   text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: goldenrod;
+  padding: 8px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 /* ESTILOS IMG */
@@ -81,8 +100,10 @@
 .mi-imagen {
   width: 300px;
   height: auto;
-  margin-left: 48px;
+  border: 2px solid white;
+  margin-left: 56px;
 }
+
 .img-semi {
   width: 270px;
   height: 290px;
@@ -117,6 +138,10 @@
 
 /* ESTILOS NAV */
 
+.nav-logo {
+  width: 100px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -142,6 +167,6 @@
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
