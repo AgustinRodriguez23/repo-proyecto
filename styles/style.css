@@ -16,7 +16,7 @@
       margin: 16px;
 }
      h1 { 
-      color: rgb(211, 182, 55); 
+      color: rgb(214, 176, 8); 
       font-size: 40px;
       text-decoration: underline;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -205,15 +205,15 @@ footer p {
   font-size: 16px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
     }
   
   .inicio {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
 
@@ -226,7 +226,7 @@ footer p {
   }
 
   .mi-imagen {
-    width: 300;
+    width: 280;
   }
 
 }
