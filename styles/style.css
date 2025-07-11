@@ -101,7 +101,7 @@
 /* ESTILOS IMG */
 
 .mi-imagen {
-  width: 300px;
+  width: 330px;
   height: auto;
   border: 2px solid white;
   margin-left: 56px;
@@ -148,6 +148,28 @@
   display: flex;
   flex-direction: column;
 }
+
+.grid-nos {
+  display: grid;
+  grid-template-areas:
+    "comienzos sucursales sucursales"
+    "comienzos img-nos img-nos";
+  justify-items: center;
+}
+
+.comienzos {
+  grid-area: comienzos;
+}
+
+.sucursales {
+  grid-area: sucursales;
+}
+
+.img-nos {
+  grid-area: img-nos;
+}
+
+
 
 /* ESTILOS NAV */
 
