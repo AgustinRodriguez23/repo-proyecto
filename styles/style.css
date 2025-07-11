@@ -32,8 +32,7 @@
 }
 
     .info {
-      text-align: center;
-      font-size: 27px;
+      font-size: 26px;
 }
 
     .sub-nos {
@@ -95,6 +94,10 @@
   font-size: 16px;
 }
 
+.art-ubi {
+  justify-content: center;
+}
+
 /* ESTILOS IMG */
 
 .mi-imagen {
@@ -117,12 +120,12 @@
 }
 
 .img-nos {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
 .img-info {
-  width: 500px;
+  width: 420px;
   height: auto;
 }
 
@@ -133,7 +136,17 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
+}
+
+.container-nos {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+}
+
+.div-nos {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ESTILOS NAV */
