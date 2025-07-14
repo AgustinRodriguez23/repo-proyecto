@@ -15,12 +15,24 @@
       background-color: black;
       margin: 16px;
 }
+
+     footer {
+      margin: 32px 16px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: space-around;
+}
+
      h1 { 
       color: rgb(214, 176, 8); 
-      font-size: 40px;
+      font-size: 42px;
       text-decoration: underline;
       font-family: Georgia, 'Times New Roman', Times, serif;
       margin-left: 42px;
+      margin-bottom: 32px;
+      margin-top: 32px;
 }
     
     section p {
@@ -39,7 +51,7 @@
       color: white;
       font-size: 20px;
       text-decoration: underline;
-    }
+}
 
     h3 {
       color:rgba(31, 61, 156, 0.781);
@@ -53,17 +65,19 @@
     h5 {
       text-transform: uppercase;
       font-size: 24px;
-      margin-left: 56px;
+      text-align: center;
+      margin: 32px
 }
 
     p {
       color: white; 
       font-size: 20px;
-      margin: 16px 8px;    
+      margin: 28px 8px;    
 }
 
 .seminario {
       text-align: center;
+      margin: 42px 12px;
 }
 
 .inicio {
@@ -92,6 +106,7 @@
   border: 1px solid goldenrod;
   border-radius: 8px;
   font-size: 16px;
+  align-content: center;
 }
 
 .art-ubi {
@@ -105,6 +120,7 @@
   height: auto;
   border: 2px solid white;
   margin-left: 56px;
+  margin: 20px;
 }
 
 .img-semi {
@@ -116,7 +132,7 @@
 .img-ubi {
   width: 400px;
   height: 400px;
-  
+  margin: 26px
 }
 
 .img-nos {
@@ -205,20 +221,21 @@ footer p {
   font-size: 16px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 
   h1 {
-    font-size: 30px;
+    font-size: 28px;
     }
   
   .inicio {
-    display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
 
   h5 {
     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   .seminario {
@@ -226,7 +243,32 @@ footer p {
   }
 
   .mi-imagen {
-    width: 280;
+    width: 270px;
+    justify-content: start;
+    margin-left: auto;
   }
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .inicio {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .seminario {
+    font-size: 22px; 
+  }
+
+   h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
 
 }
