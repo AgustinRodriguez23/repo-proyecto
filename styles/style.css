@@ -233,7 +233,7 @@ footer p {
   }
 
   h5 {
-    text-align: center;
+    text-align: start;
     margin-top: 16px;
     margin-bottom: 16px;
   }
@@ -243,9 +243,12 @@ footer p {
   }
 
   .mi-imagen {
-    width: 270px;
-    justify-content: start;
-    margin-left: auto;
+    width: 280px;
+  }
+
+  .p-inicio {
+    text-align: center;
+    margin: 16px;
   }
 
 }
@@ -268,6 +271,11 @@ footer p {
    h5 {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .p-inicio {
+    text-align: center;
+    margin: 16px;
   }
 
 
