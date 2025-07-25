@@ -246,7 +246,7 @@ footer p {
   }
 
   .img-ubi {
-    width: 340px;
+    width: 320px;
   }
 
   .seminario {
@@ -267,17 +267,21 @@ footer p {
   }
 
   .img-info {
-    height: 400px;
+    width: 320px;
+    padding: 0;
   }
 
   .img-nos {
-    width: 350px;
+    width: 340px;
+  }
+
+  .div-nos {
+    text-align: center;
   }
 
   .info {
     font-size: 22px;
     text-decoration: underline;
-    text-align: center;
   }
 
   .grid-nos {
