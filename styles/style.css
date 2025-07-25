@@ -246,7 +246,7 @@ footer p {
   }
 
   .img-ubi {
-    width: 360px;
+    width: 340px;
   }
 
   .seminario {
@@ -267,12 +267,11 @@ footer p {
   }
 
   .img-info {
-    width: 360px;
-    align-self: flex-start;
+    height: 400px;
   }
 
   .img-nos {
-    width: 360px;
+    width: 350px;
   }
 
   .info {
