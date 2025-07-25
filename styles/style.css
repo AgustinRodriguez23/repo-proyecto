@@ -31,7 +31,7 @@
       text-decoration: underline;
       font-family: Georgia, 'Times New Roman', Times, serif;
       margin-left: 42px;
-      margin-bottom: 32px;
+      margin-bottom: 48px;
       margin-top: 32px;
 }
     
@@ -141,8 +141,9 @@
 }
 
 .img-info {
-  width: 420px;
-  height: auto;
+  width: 400px;
+  height: 550px;
+  padding-left: 24px;
 }
 
 .container-img {
@@ -188,6 +189,12 @@
 
 
 /* ESTILOS NAV */
+
+.bg-body-tertiary-nav {
+  background-color: rgba(110, 100, 100, 0.904);
+  --bs-bg-opacity: 1;
+}
+
 
 .nav-logo {
   width: 100px;
@@ -251,12 +258,34 @@ footer p {
     margin: 16px;
   }
 
+  .container-nos {
+    flex-direction: column;
+  }
+
+  .img-info {
+    width: 400px;
+  }
+
+  .info {
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .grid-nos {
+    grid-template-areas: 
+    "comienzos comienzos"
+    "sucursales sucursales"
+    "img-nos img-nos";
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
 
   h1 {
     font-size: 34px;
+    padding-bottom: 32px;
   }
 
   .inicio {
