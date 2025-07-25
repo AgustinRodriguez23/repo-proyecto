@@ -245,6 +245,10 @@ footer p {
     margin-bottom: 16px;
   }
 
+  .img-ubi {
+    width: 360px;
+  }
+
   .seminario {
     font-size: 18px; 
   }
@@ -263,7 +267,12 @@ footer p {
   }
 
   .img-info {
-    width: 400px;
+    width: 360px;
+    align-self: flex-start;
+  }
+
+  .img-nos {
+    width: 360px;
   }
 
   .info {
