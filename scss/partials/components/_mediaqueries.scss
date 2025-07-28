@@ -1,0 +1,93 @@
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 28px;
+    }
+  
+  .inicio {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  h5 {
+    text-align: start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .img-ubi {
+    width: 320px;
+  }
+
+  .seminario {
+    font-size: 18px; 
+  }
+
+  .mi-imagen {
+    width: 280px;
+  }
+
+  .p-inicio {
+    text-align: center;
+    margin: 16px;
+  }
+
+  .container-nos {
+    flex-direction: column;
+  }
+
+  .img-info {
+    width: 320px;
+    padding: 0;
+  }
+
+  .img-nos {
+    width: 340px;
+  }
+
+  .div-nos {
+    text-align: center;
+  }
+
+  .info {
+    font-size: 22px;
+    text-decoration: underline;
+  }
+
+  .grid-nos {
+    grid-template-areas: 
+    "comienzos comienzos"
+    "sucursales sucursales"
+    "img-nos img-nos";
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+  h1 {
+    font-size: 34px;
+    padding-bottom: 32px;
+  }
+
+  .inicio {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .seminario {
+    font-size: 22px; 
+  }
+
+   h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .p-inicio {
+    text-align: center;
+    margin: 16px;
+  }
+
+
+}

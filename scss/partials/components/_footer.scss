@@ -1,0 +1,23 @@
+@use "../utilites/extend";
+@use "../utilites/variables";
+
+footer{
+        @extend %navbar; 
+        margin: 32px 16px;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        p {
+            font-size: 16px;
+    }
+}
+
+.footer-link {
+  text-decoration: none;
+  color: variables.$f-gold;
+  padding: 8px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  font-size: 16px;
+  align-content: center;
+}

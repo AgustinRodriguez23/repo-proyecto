@@ -1,0 +1,31 @@
+@use "../utilites/mixins";
+
+ header {
+      padding: 16px;
+}
+
+.bg-body-tertiary-nav {
+  background-color: rgba(110, 100, 100, 0.904);
+  --bs-bg-opacity: 1;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+    ul {
+        @include mixins.flex (row,center);
+        gap: 24px
+    }
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  
+}

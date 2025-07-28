@@ -1,0 +1,88 @@
+@use "../utilites/variables";
+
+       body {
+      font-family: "Inter", sans-serif;
+      color: variables.$f-white;
+      background-color: black;
+      margin: 16px;
+}
+   
+   h1 { 
+      color: variables.$f-gold; 
+      font-size: variables.$title;
+      text-decoration: underline;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-left: 42px;
+      margin-bottom: 48px;
+      margin-top: 32px;
+}
+
+   h2 {
+      margin-left: 50px;
+}
+
+    h3 {
+      color:rgba(31, 61, 156, 0.781);
+      font-size: 30px;
+}
+    h4 {
+      text-align: start;
+      font-size: 19px;
+      margin-left: 16px; 
+}
+    h5 {
+      text-transform: uppercase;
+      font-size: 24px;
+      text-align: center;
+      margin: 32px
+}
+
+p {
+      color: white; 
+      font-size: variables.$f-size;
+      margin: 28px 8px;    
+}
+
+section {
+    p {
+        font-size: 22px;
+    }
+}
+
+   .info {
+      font-size: 26px;
+}
+
+    .sub-nos {
+      color: white;
+      font-size: variables.$f-size;
+      text-decoration: underline;
+}
+
+.seminario {
+      text-align: center;
+      margin: 42px 12px;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  margin-right: 42px;
+
+  li {
+    margin: 16px;
+  }
+}
+
+.servicios {
+  font-size: 20px;
+  list-style-type: square;
+}
+
+.div-contacto {
+  text-align: center;
+}
+
+.art-ubi {
+  justify-content: center;
+}

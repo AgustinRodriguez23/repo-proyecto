@@ -1,83 +1,111 @@
-     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-     /*font-family: "Inter", sans-serif; */
-     
-
-     /*ESTILOS GENERALES*/
-    
-
-     header {
-      padding: 16px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-     body {
-      font-family: "Inter", sans-serif;
-      color: white;
-      background-color: black;
-      margin: 16px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-     footer {
-      margin: 32px 16px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 24px;
-      justify-content: space-around;
+li {
+  list-style-type: none;
 }
 
-     h1 { 
-      color: rgb(214, 176, 8); 
-      font-size: 42px;
-      text-decoration: underline;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-left: 42px;
-      margin-bottom: 48px;
-      margin-top: 32px;
-}
-    
-    section p {
-      font-size: 22px;
+/*font-family: "Inter", sans-serif; */
+header {
+  padding: 16px;
 }
 
-    h2 {
-      margin-left: 50px;
+.bg-body-tertiary-nav {
+  background-color: rgba(110, 100, 100, 0.904);
+  --bs-bg-opacity: 1;
 }
 
-    .info {
-      font-size: 26px;
+.nav-logo {
+  width: 100px;
 }
 
-    .sub-nos {
-      color: white;
-      font-size: 20px;
-      text-decoration: underline;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
 }
 
-    h3 {
-      color:rgba(31, 61, 156, 0.781);
-      font-size: 30px;
-}
-    h4 {
-      text-align: start;
-      font-size: 19px;
-      margin-left: 16px; 
-}
-    h5 {
-      text-transform: uppercase;
-      font-size: 24px;
-      text-align: center;
-      margin: 32px
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
 }
 
-    p {
-      color: white; 
-      font-size: 20px;
-      margin: 28px 8px;    
+body {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  background-color: black;
+  margin: 16px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 42px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 42px;
+  margin-bottom: 48px;
+  margin-top: 32px;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+h3 {
+  color: rgba(31, 61, 156, 0.781);
+  font-size: 30px;
+}
+
+h4 {
+  text-align: start;
+  font-size: 19px;
+  margin-left: 16px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  margin: 32px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  margin: 28px 8px;
+}
+
+section p {
+  font-size: 22px;
+}
+
+.info {
+  font-size: 26px;
+}
+
+.sub-nos {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 .seminario {
-      text-align: center;
-      margin: 42px 12px;
+  text-align: center;
+  margin: 42px 12px;
 }
 
 .inicio {
@@ -85,73 +113,30 @@
   flex-direction: row;
   margin-right: 42px;
 }
+.inicio li {
+  margin: 16px;
+}
 
 .servicios {
   font-size: 20px;
   list-style-type: square;
 }
 
-.li-inicio {
-  margin: 16px;
-}
-
 .div-contacto {
   text-align: center;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: goldenrod;
-  padding: 8px;
-  border: 1px solid goldenrod;
-  border-radius: 8px;
-  font-size: 16px;
-  align-content: center;
 }
 
 .art-ubi {
   justify-content: center;
 }
 
-/* ESTILOS IMG */
-
-.mi-imagen {
-  width: 330px;
-  height: auto;
-  border: 2px solid white;
-  margin: 48px 80px;
-}
-
-.img-semi {
-  width: 270px;
-  height: 290px;
-  border: 1px solid beige;
-  border-radius: 5px;
-}
-.img-ubi {
-  width: 400px;
-  height: 400px;
-  margin: 26px
-}
-
-.img-nos {
-  width: 400px;
-  height: auto;
-}
-
-.img-info {
-  width: 400px;
-  height: 550px;
-  padding-left: 24px;
-}
-
 .container-img {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 80px;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
 }
 
 .container-nos {
@@ -167,9 +152,7 @@
 
 .grid-nos {
   display: grid;
-  grid-template-areas:
-    "comienzos sucursales sucursales"
-    "comienzos img-nos img-nos";
+  grid-template-areas: "comienzos sucursales sucursales" "comienzos img-nos img-nos";
   justify-items: center;
 }
 
@@ -181,143 +164,133 @@
   grid-area: sucursales;
 }
 
+.mi-imagen {
+  width: 330px;
+  height: auto;
+  border: 2px solid white;
+  margin: 48px 80px;
+}
+
+.img-semi {
+  width: 270px;
+  height: 290px;
+  border: 1px solid beige;
+  border-radius: 5px;
+}
+
+.img-ubi {
+  width: 400px;
+  height: 400px;
+  margin: 26px;
+}
+
+.img-nos {
+  width: 400px;
+  height: auto;
+}
+
+.img-info {
+  width: 400px;
+  height: 550px;
+  padding-left: 24px;
+}
+
 .img-nos {
   grid-area: img-nos;
 }
 
-
-
-/* ESTILOS NAV */
-
-.bg-body-tertiary-nav {
-  background-color: rgba(110, 100, 100, 0.904);
-  --bs-bg-opacity: 1;
-}
-
-
-.nav-logo {
-  width: 100px;
-}
-
-.navbar {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.navbar ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+footer {
+  margin: 32px 16px;
+  flex-wrap: wrap;
   gap: 24px;
 }
-
-.nav-li {
-  list-style-type: none;
-}
-
-.nav-link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 22px;
-  
-}
-
 footer p {
   font-size: 16px;
 }
 
-@media (max-width: 480px) {
+.footer-link {
+  text-decoration: none;
+  color: goldenrod;
+  padding: 8px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  font-size: 16px;
+  align-content: center;
+}
 
+@media (max-width: 480px) {
   h1 {
     font-size: 28px;
-    }
-  
+  }
   .inicio {
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
-
   h5 {
     text-align: start;
     margin-top: 16px;
     margin-bottom: 16px;
   }
-
   .img-ubi {
     width: 320px;
   }
-
   .seminario {
-    font-size: 18px; 
+    font-size: 18px;
   }
-
   .mi-imagen {
     width: 280px;
   }
-
   .p-inicio {
     text-align: center;
     margin: 16px;
   }
-
   .container-nos {
     flex-direction: column;
   }
-
   .img-info {
     width: 320px;
     padding: 0;
   }
-
   .img-nos {
     width: 340px;
   }
-
   .div-nos {
     text-align: center;
   }
-
   .info {
     font-size: 22px;
     text-decoration: underline;
   }
-
   .grid-nos {
-    grid-template-areas: 
-    "comienzos comienzos"
-    "sucursales sucursales"
-    "img-nos img-nos";
+    grid-template-areas: "comienzos comienzos" "sucursales sucursales" "img-nos img-nos";
   }
-
 }
-
 @media (min-width: 481px) and (max-width: 1024px) {
-
   h1 {
     font-size: 34px;
     padding-bottom: 32px;
   }
-
   .inicio {
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
-
   .seminario {
-    font-size: 22px; 
+    font-size: 22px;
   }
-
-   h5 {
+  h5 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
   .p-inicio {
     text-align: center;
     margin: 16px;
   }
-
-
 }
 
+/*# sourceMappingURL=style.css.map */

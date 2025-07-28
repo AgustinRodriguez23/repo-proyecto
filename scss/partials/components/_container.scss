@@ -1,0 +1,37 @@
+@use "../utilites/mixins";
+
+.container-img {
+  @include mixins.flex (row, center);
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-nos {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+}
+
+.div-nos {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-nos {
+  display: grid;
+  grid-template-areas:
+    "comienzos sucursales sucursales"
+    "comienzos img-nos img-nos";
+  justify-items: center;
+}
+
+.comienzos {
+  grid-area: comienzos;
+}
+
+.sucursales {
+  grid-area: sucursales;
+}
+
+
